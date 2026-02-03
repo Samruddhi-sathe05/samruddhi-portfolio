@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 10px 0 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+}
+
+.buttons .secondary {
+  background: #e5e7eb;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.skill-grid span {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.contact a {
+  color: #2563eb;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  color: white;
+  margin-top: 40px;
+}
