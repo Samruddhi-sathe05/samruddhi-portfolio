@@ -3,100 +3,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Samruddhi Sathe | Frontend Developer</title>
+  <title>Samruddhi Sathe | Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
-    <h1>Samruddhi Sathe</h1>
-    <p>Frontend Developer | Diploma Computer Engineering Student</p>
-    <div class="buttons">
-      <a href="#projects">View Projects</a>
-      <a href="#contact" class="secondary">Contact Me</a>
-    </div>
-  </header>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">SS</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="resume.pdf" class="cv-btn" download>Download CV</a>
+</nav>
 
-  <!-- ABOUT -->
-  <section class="about">
-    <h2>About Me</h2>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Hi, I’m <span>Samruddhi</span></h1>
     <p>
-      I am a Diploma Computer Engineering student from Government Polytechnic Nashik.
-      I enjoy building clean and responsive web applications and working on innovative
-      ideas like AI-based educational tools. I am actively seeking a 6-month remote
-      internship to gain industry-level experience.
+      Diploma Computer Engineering student & aspiring Frontend Developer,
+      focused on building elegant, user-centric digital experiences.
     </p>
-  </section>
 
-  <!-- SKILLS -->
-  <section class="skills">
-    <h2>Technical Skills</h2>
-    <div class="skill-grid">
-      <span>C</span>
-      <span>C++</span>
-      <span>Python</span>
-      <span>Java</span>
-      <span>JavaScript</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>GitHub</span>
-      <span>Linux</span>
-      <span>SQL</span>
+    <div class="hero-buttons">
+      <a href="#projects" class="primary-btn">View Portfolio</a>
+      <a href="#contact" class="secondary-btn">Contact Me</a>
     </div>
-  </section>
+  </div>
 
-  <!-- PROJECTS -->
-  <section class="projects" id="projects">
-    <h2>Projects</h2>
+  <div class="hero-card">
+    <div class="circle">SS</div>
+    <h3>Samruddhi Sathe</h3>
+    <p>Computer Engineering Student</p>
+    <p>Government Polytechnic, Nashik</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section fade">
+  <h2>About Me</h2>
+  <p>
+    I am a motivated Computer Engineering student with a strong interest in
+    frontend development and AI-based educational tools. I enjoy transforming
+    ideas into clean, functional web applications and continuously improving
+    my technical skills.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section fade">
+  <h2>Skills & Technologies</h2>
+  <div class="skills-grid">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">C / C++</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">GitHub</div>
+    <div class="skill-card">Linux</div>
+    <div class="skill-card">SQL</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section fade">
+  <h2>Featured Projects</h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>VaultX</h3>
+      <p>
+        A secure password management web app that stores multiple credentials
+        with encryption-based concepts.
+      </p>
+      <span>HTML • CSS • JavaScript</span>
+      <a href="#" class="project-link">View Project →</a>
+    </div>
 
     <div class="project-card">
-      <h3>VaultX – Secure Password Manager</h3>
+      <h3>EduQuest.AI</h3>
       <p>
-        A web application that helps users securely store and manage passwords.
-        Focused on clean UI, usability, and encryption concepts.
+        An AI-based question paper generator aimed at reducing time and effort
+        in examination preparation.
       </p>
-      <p><strong>Tech:</strong> HTML, CSS, JavaScript, JSON</p>
+      <span>Frontend • AI Tools • Research</span>
+      <a href="#" class="project-link">In Progress</a>
     </div>
+  </div>
+</section>
 
-    <div class="project-card">
-      <h3>EduQuest.AI (In Progress)</h3>
-      <p>
-        An AI-based question paper generator to automate exam preparation for institutions.
-        Focused on research, frontend design, and AI tool analysis.
-      </p>
-      <p><strong>Tech:</strong> HTML, CSS, JavaScript, AI Tools</p>
-    </div>
-  </section>
+<!-- CONTACT -->
+<section id="contact" class="section fade">
+  <h2>Let’s Connect</h2>
+  <p>Email: samruddhisathe.538@gmail.com</p>
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/samruddhi-s-599196327/" target="_blank">
+      View Profile
+    </a>
+  </p>
+</section>
 
-  <!-- ACHIEVEMENTS -->
-  <section class="achievements">
-    <h2>Achievements & Leadership</h2>
-    <ul>
-      <li>Top 5 academic rank in Computer Engineering</li>
-      <li>Scholarship recipient for academic excellence</li>
-      <li>Newsletter Design Head – CS & IT Department</li>
-      <li>3rd Rank – College Level Hackathon</li>
-    </ul>
-  </section>
+<footer>
+  <p>© 2026 Samruddhi Sathe</p>
+</footer>
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <h2>Contact</h2>
-    <p>Email: samruddhisathe.538@gmail.com</p>
-    <p>
-      LinkedIn:
-      <a href="https://www.linkedin.com/in/samruddhi-s-599196327/" target="_blank">
-        samruddhi-s-599196327
-      </a>
-    </p>
-    <p>Location: Nashik, Maharashtra</p>
-  </section>
-
-  <footer>
-    <p>© 2026 Samruddhi Sathe</p>
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
